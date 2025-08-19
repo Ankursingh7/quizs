@@ -11,7 +11,7 @@
   "author": "Your Name",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^3.3.2",
     "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
