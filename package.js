@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^3.3.2"
+    "pdf-parse": "^1.1.1"
   },
   "devDependencies": {
     "netlify-cli": "^17.0.0"
