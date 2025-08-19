@@ -3,13 +3,12 @@
   functions = "netlify/functions"
 
 [functions]
-  node_bundler = "esbuild" # more compatible with native packages
+  node_bundler = "esbuild"
 
 [build.environment]
-  NODE_VERSION = "16" # pdf-parse works best with Node 16
+  NODE_VERSION = "16"
 
 [[redirects]]
   from = "/api/*"
   to = "/.netlify/functions/:splat"
   status = 200
-
